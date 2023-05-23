@@ -1,0 +1,10 @@
+// crear el archivo .eslintrc.json
+
+{
+    "parserOptions" : {
+        "ecmaVersion": 6
+     },
+     "rules" : {
+         "semi": ["error", "always"] // Muestra errores de código o también errores de código
+     }
+}

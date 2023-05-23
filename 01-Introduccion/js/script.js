@@ -1,6 +1,3 @@
-
-// VS Cdoe
-
 //     <!-- 02 - JavaScript en el HTML
 //     JavaScript puede ser agregado en cualquier lugar (mostrar head, body o antes del cierre del body)
 
@@ -10,9 +7,6 @@
 // <!-- <script>
 //     alert("Hola Mundo")
 // </script> -->
-
-
-
 
 // <!-- 03 - JavaScript Externo 
 //     Usualmente tu código JavaScript se recomienda colocarlo en un archivo externo 
@@ -36,11 +30,7 @@
 // Muchas personas dicen que el buen código habla por si solo, decir algo asi es como decir que un buen libro es cuando sabes en que página y que parrafo esta una frase, podrás recordarlo a la semana o al mes, pero no lo vas a recordar en 6 meses o un año.
 
 // Existen 2 tipos de comentarios, de una linea o de múltiples lineas
-
-/*
-
-*/
-+
+// - /* */
 
 // 06 - Todos los navegadores tienen una consola de Javascript, las mejores sin duda son firefox y Chrome
 // La consola es muy útil ya que podrás observar tu código JS, resultados y seleccionar elementos
@@ -85,12 +75,10 @@ console.log('Mundo')
 // va a funcionar, pero si tienes un código desordenado; no va a funcionar salvo que pongas ; 
 console.log('Hola'); console.log('Mundo');
 
-// Como recomendación siempre pon una instrucción por linea, no es obligatorio salvo el caso que vimos anteriormente pero va a facilitar mucho tu código
-
-// ahora, vamos a crear una función, no te preocupes aun por funciones lo veremos más adelante
+// Crear una funciones
 
 // function hola() {
-// console.log('ok')
+//     console.log('ok')
 // }
 
 // en estos casos esta función es valida y va a funcionar, pero es mejor utilizar tabs o espacios 
@@ -99,11 +87,11 @@ console.log('Hola'); console.log('Mundo');
 
 // crear el archivo .eslintrc.json
 
-// {
+//{
 //     "parserOptions" : {
 //         "ecmaVersion": 6
 //     },
 //     "rules" : {
 //         "semi": ["error", "always"] // Muestra errores de código o también errores de código
 //     }
-// }
+//}
