@@ -17,5 +17,5 @@ console.log(Number.parseInt(numero3));
 console.log(Number.isInteger(numero4) ); // Revisar si un número es entero o no
 console.log(Number.isInteger(numero3) ); //
 
-// Convertir String a numero
+// Convertir numero a String
 console.log(numero4.toString());

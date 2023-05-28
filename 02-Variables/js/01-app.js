@@ -1,6 +1,4 @@
-// Las variables son una caracteristica de cualquier lenguaje de programación
-
-// existen 3 formas de crear variables en JavaScript, en nuevas versiones solo se utilizan 2:
+// Existen 3 formas de crear variables en JavaScript, en nuevas versiones solo se utilizan 2:
 
 // Variables con var
 
@@ -11,9 +9,7 @@ producto = 'Monitor de 19 Pulgadas';
 
 console.log(producto);
 
-// Javascript es un lenguaje de tIpo Dinamico,
-// No se especifican tipos de datos cuando
-// se crea la variable
+// Javascript es un lenguaje de tipo Dinamico, no se especifican tipos de datos cuando se crea la variable
 var precio = 200;
 console.log(precio);
 
@@ -21,7 +17,6 @@ console.log(precio);
 
 var disponible;
 disponible = true;
-
 
 // Inicializar múltiples variables 
 var categoria = 'Computadoras',
@@ -32,20 +27,17 @@ console.log(categoria)
 console.log(marca)
 console.log(calificacion)
 
-
 // Reglas de las variables:
 
 // Pueden tener: letras, numeros, _
 // No pueden iniciar con numero
-var 99dias;
-var dias99;
+// var 99dias; 
+ var dias99;
 
-var _01;
-var 01_;
+ var _01;
+// var 01_;
 
-// Estilos para nombrar variables con más de una palabra
-
-// más de una palabra.
+// Estilos para nombrar variables con más de una palabra más de una palabra.
 var  nombreProducto = 'Monitor 30 Pulgadas'; // CamelCase
 var nombre_producto = 'Monitor 30 Pulgadas'; //underscore
 var NombreProducto = 'Monitor 30 Pulgadas'; // pascal case

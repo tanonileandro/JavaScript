@@ -1,5 +1,5 @@
 
-// Una nota muy importante es que en la consola los números se muestran de diferente color cuando es número que cuando es un string que representa un número
+// En la consola los números se muestran de diferente color cuando es número que cuando es un string que representa un número
 
 const numero6 = 20;
 const numero7 = "20";

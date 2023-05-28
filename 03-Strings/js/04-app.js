@@ -1,4 +1,4 @@
-// En este video 3 métodos para strings
+// 3 métodos para strings
 const producto = '        Monitor 20 Pulgadas      '; 
 
 
@@ -12,5 +12,5 @@ console.log(producto.trimEnd()); // Elimina todos los espacios en blancos del fi
 // Los métodos en javaScript se pueden encadenar, es decir, colocarse uno junto al otro
 console.log(producto.trimStart().trimEnd() ); // Cortar en ambas direcciones
 
-// Un método (que ya tiene rato ) es trim que hace lo mismo
+// Un método (que ya tiene rato ) es trim que hace lo mismo elimina en las dos direcciones
 console.log(producto.trim().length);

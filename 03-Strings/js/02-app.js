@@ -1,4 +1,4 @@
-// Veamos algunos métodos existentes en los strings o cadenas de Texto:
+// Algunos métodos existentes en los strings o cadenas de Texto:
 
 const producto = 'Monitor 20 Pulgadas ';
 const precio = '30 USD';

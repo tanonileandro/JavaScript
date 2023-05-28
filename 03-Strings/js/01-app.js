@@ -3,26 +3,26 @@
 
 
 // Las otras 2 formas crean lo que se conoce como una cadena primitiva
-// const producto = 'Monitor 20 Pulgadas';
-// const producto2 = String('Monitor 24 Pulgadas');
+const producto = 'Monitor 20 Pulgadas';
+const producto2 = String('Monitor 24 Pulgadas');
 
 
 // // La siguiente forma es menos común
-// const producto3 = new String('Monitor 30 Pulgadas'); // Esto crea un objeto cadena
+const producto3 = new String('Monitor 30 Pulgadas'); // Esto crea un objeto cadena
 
-// console.log(producto);
-// console.log(producto2);
-// console.log(producto3);
+console.log(producto);
+console.log(producto2);
+console.log(producto3);
 
 // Veamos algunas reglas para crear los strings:
-const producto = 'Monitor 20 Pulgadas'; // Utiliza comillas sencillas
-const producto2 = "Monitor 20 Pulgadas"; // Utiliza comillas o dobles
-
+const producto4 = 'Monitor 20 Pulgadas'; // Utiliza comillas sencillas
+const producto5 = "Monitor 20 Pulgadas"; // Utiliza comillas o dobles
+console.log(producto4)
+console.log(producto5)
 // pero nunca las mezcles
 
 // const producto3 = "Monitor 20 Pulgadas';
 
 // Ejemplo con Pulgadas
-const producto4 = "Monitor 24\"";
-
-console.log(producto4);
+const producto6 = "Monitor 24\"";
+console.log(producto6);
