@@ -7,6 +7,6 @@ https://www.udemy.com/course/javascript-moderno-guia-definitiva-construye-10-pro
 ### <i><b>Skills used</b></i>
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,express,js,node,mongodb&perline=14" />
+    <img src="https://skillicons.dev/icons?i=react,express,js,nodejs,mongodb&perline=14" />
   </a>
 </p>
