@@ -1,4 +1,4 @@
-// Si recuerdas una variable con const una vez que es definida no puede reasginarse su valor.
+// Una variable con const una vez que es definida no puede reasginarse su valor.
 
 
 // const producto = "Monitor";
@@ -19,4 +19,4 @@ console.log(producto);
 
 producto.disponible = false;
 
-console.log(producto); // Puedes ver que lo pudimos modificar, a pesar de ser const, veamos como prevenir esto en el próximo video
+console.log(producto);

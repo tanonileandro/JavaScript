@@ -5,16 +5,22 @@ const producto = {
     precio: 30,
     disponible: true,
     informacion : {
-        peso: '1kg',
-        medida: '1m'
+        medida: {
+            peso: '1kg',
+            medida: '1m'
+        },
+        fabricacion: {
+            pais: 'China',
+            ciudad: ''
+        }
     }
 }
 
 
-const { nombre, informacion, informacion: { peso, medida } } = producto;
+const { nombre, informacion, informacion: { fabricacion, fabricacion: pais } } = producto;
 
 
 console.log(nombre)
 console.log(informacion)
-console.log(peso)
-console.log(medida)
+console.log(fabricacion)
+console.log(pais)

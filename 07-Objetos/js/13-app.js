@@ -9,7 +9,7 @@ const producto = {
 
 console.log(Object.keys(producto));// nos devolverá un arreglo con los keys del objeto
 console.log(Object.values(producto)); // nos devolverá un arreglo con los valores del objeto
-console.log(Object.entries(producto)); // Entries nos va a retornar una matriz de llaves y valores
+console.log(Object.entries(producto)); // nos va a retornar una matriz de llaves y valores
 
 
 // Y con eso tenemos un buen conocimiento de Objectos en JavaScript, los estaremos retomando más adelante pero primero hay que conocer otros conceptos como Arreglos y Funciones para poderle sacar más provecho.

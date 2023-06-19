@@ -6,8 +6,13 @@ const producto = {
     precio: 30,
     disponible: true,
     informacion : {
-        peso: '1kg',
-        medida: '1m'
+        medida: {
+            peso: '1kg',
+            medida: '1m'
+        },
+        fabricacion: {
+            pais: 'China'
+        }
     }
 }
 
@@ -18,5 +23,5 @@ console.log(producto); // Puedes ver que tenemos un objeto dentro de un objeto.
 // De nueva cuenta para acceder a un objeto, se utiliza la sintaxis de punto
 
 console.log(producto.informacion);
-console.log(producto.informacion.peso);
 console.log(producto.informacion.medida);
+console.log(producto.informacion.fabricacion);

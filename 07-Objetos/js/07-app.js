@@ -1,6 +1,7 @@
 "use strict";
+// Habilitar el modo estricto va a exigir que se cumplan ciertas reglas al momento de escribir el codigo
 
-// Como vimos en el video anterior los objetos si se pueden modificar sus valores, veamos como prevenirlo en caso de que sea algo que desees hacer.
+// Los objetos si se pueden modificar sus valores, veamos como prevenirlo en caso de que sea algo que desees hacer.
 
 const producto = {
     nombre: "Monitor 20 pulgadas",
@@ -11,19 +12,14 @@ const producto = {
 console.log(producto);
 
 // Para ello utilizaremos un Object Method o Métodos de objetos.
-
-// Seguido me dicen, porque les dices Métodos, eso suena como algo de programación orientada a objetos
-// En realidad ese es su nombre, object methods, y en los siguientes videos los estaremos viendo algunos que son muy útiles.
-
-// Pero veamos como prevenir que un objeto sea modificado, para ello utilizaremos freeze, y funciona de la siguiente forma:
+// Utilizaremos freeze, y funciona de la siguiente forma:
 
 Object.freeze( producto ); // Freeze toma como argumento el objeto
 
-// producto.disponible = false;
-
-
+//  producto.disponible = false;
 
 // Freeze tampoco permite agregar nuevas propiedaes
+
 // producto.imagen = "imagen.jpg";
 
 // Tampoco se pueden eliminar propiedades

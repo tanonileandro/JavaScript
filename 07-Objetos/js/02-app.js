@@ -18,18 +18,12 @@ console.log(producto.disponible);
 // Otra forma aunque no tan común es:
 console.log(producto['nombre']);
 
-
-
-
-// Crear nuevo video...
-
-
 // Añadir propiedades nuevas a un objeto...
 // Para añadir nuevas propiedades se utiliza de la misma forma la sintaxis de punto
 producto.imagen = "image.jpg";
 
 
-// Finalmente para eliminar una propiedad se utiliza delete
+// Para eliminar una propiedad se utiliza delete
 
 delete producto.nombre;
 
