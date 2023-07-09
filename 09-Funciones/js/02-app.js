@@ -1,6 +1,6 @@
 // Hoisting 
 
-// Ademas de las muy notables diferencias en sintaxis, quiero mostrarte las diferencias entre ambas... si llamamos la función antes de declararla, el function expression va a funcionar bien, mientras que el otro nos va a marcar un error..
+// Ademas de las muy notables diferencias en sintaxis, si llamamos la función antes de declararla, el function expression va a funcionar bien, mientras que el otro nos va a marcar un error..
 
 sumar();
 function sumar() {
